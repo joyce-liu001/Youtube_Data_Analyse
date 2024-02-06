@@ -1,0 +1,47 @@
+=== Running.txt ===
+
+1. **Setup Instructions:**
+    - Make sure you have python3, numpy, pandas, matplotlib, glob, seaborn, plotly, spark, installed on your machine. These can be installed using pip install.
+    - Download the datasets from: 
+      https://www.kaggle.com/datasets/datasnaek/youtube-new (2017-2018 youtube trending data)
+      rename the folder: 1718
+      https://www.kaggle.com/datasets/rsrishav/youtube-trending-video-dataset/code (2020-2023 youtube trending data)
+      rename the folder: 2023
+    - Make sure all required data files are in the specified directories '/Users/<USERID>/Desktop/Data' and do not forget to change <USERID> as your own userID in all code.
+    - Clone the repository using: `git clone git@github.sfu.ca:zla285/CJMY.git`
+    - Install JupyterLab with pip: `pip install jupyterlab`
+      Once installed, launch JupyterLab with: `jupyter lab`
+
+2. **Running the Program:**
+    - Running Stage 1 codes 
+    - Navigate to the project directory: `cd [project_directory]`
+    - Run the Jupyter script Project_DataPrep_Stage_1.ipynb to preprocess and clean code into required format for Stage 1.
+    - Run the Jupyter script CJMY/categoryAnalysis/stage1_1718_compare_total.ipynb
+    - Run the Jupyter script CJMY/timeRangeAnalysis/stage_1_timeRangeAnalysis_1718.ipynb
+    - Run the Jupyter script CJMY/topTrendingVideos/trending.ipynb
+    - Run the Jupyter script CJMY/trendingTimeAnalysis/Project_1_1.ipynb and CJMY/trendingTimeAnalysis/Project_1_2.ipynb
+    
+    - Running Stage 2 codes 
+    - Navigate to the project directory: `cd [project_directory]`
+    - Run the Jupyter script Project_DataPrep_Stage_2.ipynb to preprocess and clean code into required format for Stage 2.
+    - Run the Jupyter script CJMY/categoryAnalysis/stage2_2023_compare_total.ipynb.ipynb
+    - Run the Jupyter script CJMY/timeRangeAnalysis/youtube2023.ipynb
+    - Run the Jupyter script CJMY/topTrendingVideos/trending2023.ipynb
+    - Run the Jupyter script CJMY/trendingTimeAnalysis/Project_2_1.ipynb and CJMY/trendingTimeAnalysis/Project_2_2.ipynb
+    
+    - Running Stage 3 codes 
+    - Navigate to the project directory: `cd [project_directory]`
+    - Run the Jupyter script Project_DataPrep_Stage_3.ipynb to preprocess and clean code into required format for Stage 3.
+    - Run the Jupyter script CJMY/machineLearningModel/Project_ML.ipynb
+    
+
+3. **Additional Notes:**
+    - All files related to implementing the project can be found under main branch.
+    - The entire project has been implemented in Python.
+    - In the first stage, we conducted a question-by-question analysis of the 2017-2018 data. 
+    - In the second stage, we selected valuable questions, analyzed the data from 2020-2023, and compared them with the analysis results from 2017-2018.
+    - In the third stage, we used machine learning to predict the relationship between views and trends.
+
+
+=== End of File ===
+
